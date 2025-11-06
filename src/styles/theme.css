@@ -1,0 +1,93 @@
+body,
+.dashboard-bg {
+  background: #1a1c26 !important;
+  color: #fafcff !important;
+}
+
+.card-summary {
+  border-radius: 1.25rem !important;
+  box-shadow: 0 6px 32px 0 #000a, 0 1.5px 3px #000;
+  position: relative;
+  min-height: 120px;
+  padding-top: 0.5rem !important;
+}
+
+.bg-gradient-dark-blue {
+  background: linear-gradient(135deg, #232742 0%, #19418e 100%) !important;
+}
+
+.bg-gradient-dark-green {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important;
+}
+
+.bg-gradient-dark-yellow {
+  background: linear-gradient(135deg, #ffd900 0%, #f7971e 100%) !important;
+}
+
+.bg-gradient-dark-red {
+  background: linear-gradient(135deg, #cb2d3e 0%, #ef473a 100%) !important;
+}
+
+.icon-container {
+  position: absolute;
+  top: 1rem;
+  right: 1.1rem;
+  background: rgba(0,0,0,0.12);
+  color: #fff;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  box-shadow: 0 4px 12px #0002;
+}
+
+.trend {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.row.g-4 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.col-md-3 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Optional tweaks for the rest of your app */
+.dashboard-header {
+  background: #181b23;
+  border-bottom: 1px solid #333;
+}
+.sidebar {
+  min-width: 180px;
+  height: 100vh;
+  background: #191A21;
+  border-right: 1px solid #222;
+}
+.sidebar-link {
+  font-size: 1.1rem;
+  padding: 7px 15px;
+  border-radius: 6px;
+  display: block;
+  text-decoration: none;
+  transition: background 0.18s;
+  color: #fafcff;
+}
+.sidebar-link:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.login-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #232526 0%, #1A1A1A 100%);
+}
+.login-card {
+  border-radius: 1rem !important;
+}
